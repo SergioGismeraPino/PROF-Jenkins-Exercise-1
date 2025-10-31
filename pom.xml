@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
                              https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>edu.upm.grise</groupId>
+    <groupId>es.upm.grise.profundizacion</groupId>
     <artifactId>jenkins-exercise-1</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -15,18 +15,18 @@
     </properties>
 
     <dependencies>
-        <!-- JUnit 5 -->
+        <!-- JUnit 4 para tus tests -->
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.10.2</version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
 
     <build>
         <plugins>
-            <!-- Plugin de compilación -->
+            <!-- Compilador -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -40,7 +40,7 @@
                 <version>3.2.5</version>
             </plugin>
 
-            <!-- Plugin JaCoCo -->
+            <!-- Plugin JaCoCo con cobertura al 100% -->
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
