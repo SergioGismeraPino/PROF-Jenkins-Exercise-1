@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
                              https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
+    <!-- Activación de PR para Jenkins -->
     <groupId>es.upm.grise.profundizacion</groupId>
     <artifactId>jenkins-exercise-1</artifactId>
     <version>1.0-SNAPSHOT</version>
